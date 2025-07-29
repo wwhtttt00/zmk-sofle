@@ -26,7 +26,9 @@
     acceleration-exponent = <1>;
     trigger-period-ms = <16>;
 };
-
+&soft_off {
+    hold-time-ms = <1500>; // Only turn off it the key is held for 5 seconds or longer.
+};
 
 / {
 
