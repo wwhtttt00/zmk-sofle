@@ -15,22 +15,22 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
+  - '&upleft'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '&upright'
   - R
   - T
   - $$mdi:arrow-down-bold$$
   - Y
-  - '&joy'
-  - I
+  - '&upleft'
+  - $$mdi:arrow-up-bold$$
   - O
   - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-caps$$
-  - A
-  - S
-  - D
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - F
   - G
   - $$mdi:arrow-left-bold$$
@@ -41,9 +41,9 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
+  - '&downleft'
   - X
-  - C
+  - '&downright'
   - V
   - B
   - $$mdi:arrow-right-bold$$
