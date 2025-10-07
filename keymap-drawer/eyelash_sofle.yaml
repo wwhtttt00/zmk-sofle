@@ -61,10 +61,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: LAYER0, type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - LEFT WIN
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - HOME
+  - PgUp
+  - PgDn
+  - END
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
