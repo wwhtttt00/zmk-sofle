@@ -45,7 +45,7 @@ layers:
   - X
   - C
   - V
-  - +
+  - {t: '=', s: +}
   - $$mdi:arrow-right-bold$$
   - B
   - N
@@ -110,7 +110,7 @@ layers:
   - X
   - C
   - V
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   - $$mdi:arrow-right-bold$$
   - B
   - N
