@@ -45,7 +45,7 @@ layers:
   - X
   - C
   - V
-  - {t: '=', s: +}
+  - +
   - $$mdi:arrow-right-bold$$
   - B
   - N
