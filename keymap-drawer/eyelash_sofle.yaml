@@ -1,19 +1,19 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - $$mdi:keyboard-esc$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -39,20 +39,85 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
-  - B
+  - {t: '=', s: +}
   - $$mdi:arrow-right-bold$$
+  - B
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - .
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:volume-off$$
+  - LANGUAGE 1
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: LAYER1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - LEFT WIN
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  LAYER1:
+  - $$mdi:keyboard-esc$$
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - $$mdi:arrow-up-bold$$
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - {t: '=', s: +}
+  - $$mdi:arrow-right-bold$$
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - LANGUAGE 2
   - $$mdi:apple-keyboard-control$$
