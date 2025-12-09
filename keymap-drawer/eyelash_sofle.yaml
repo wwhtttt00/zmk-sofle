@@ -89,9 +89,9 @@ layers:
   - Y
   - U
   - I
-  - O
-  - P
   - F11
+  - F12
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -104,7 +104,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - F12
+  - KP MULTIPLY
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
