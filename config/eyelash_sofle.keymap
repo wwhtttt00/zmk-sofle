@@ -66,8 +66,8 @@
             display-name = "LAYER1";
             bindings = <
 &kp ESC     &kp F1          &kp F2     &kp F3        &kp F4     &kp F5         &kp UP_ARROW     &kp F6        &kp F7    &kp F8       &kp F9         &kp F10            &kp DEL
-&kp TAB     &kp Q           &kp W      &kp E         &kp R      &kp T          &kp DOWN_ARROW   &kp Y         &kp U     &kp I        &kp O          &kp P              &kp F11
-&kp CAPS    &kp A           &kp S      &kp D         &kp F      &kp G          &kp LEFT_ARROW   &kp H         &kp J     &kp K        &kp L          &kp SEMI           &kp F12
+&kp TAB     &kp Q           &kp W      &kp E         &kp R      &kp T          &kp DOWN_ARROW   &kp Y         &kp U     &kp I        &kp F11        &kp F12            &kp SQT
+&kp CAPS    &kp A           &kp S      &kp D         &kp F      &kp G          &kp LEFT_ARROW   &kp H         &kp J     &kp K        &kp L          &kp SEMI           &kp KP_MULTIPLY
 &kp LSHFT   &kp Z           &kp X      &kp C         &kp V      &kp MINUS      &kp RIGHT_ARROW  &kp B         &kp N     &kp M        &kp LBKT       &kp RIGHT_BRACKET  &kp RSHIFT
 &kp C_MUTE  &kp LANGUAGE_2  &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &lt 0 ENTER    &kp ENTER        &kp LEFT_WIN  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END
             >;
